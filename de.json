@@ -62,5 +62,5 @@
   "timer/unique": "Bitte gib deinen Timer einen eindeutigen Namen",
   "timer/success": "Neuer Timer erstellt",
   "timer/not_found": "Es wurde kein Timer mit diesem Namen gefunden",
-  "timer/deleted": "Timer gel\u00f6scht",
+  "timer/deleted": "Timer gel\u00f6scht"
 }
