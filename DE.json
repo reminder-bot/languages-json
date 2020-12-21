@@ -1,7 +1,6 @@
 {
   "flag": "\ud83c\udde9\ud83c\uddea",
   "blacklisted": ":x: Dieser Channel ist geblockt :x:",
-  "help": "Bitte besuche https://reminder-bot.com/help?lang=DE",
   "no_perms_general": "Aktion verboten! Stelle bitte sicher, dass ich die korrekten Permissions habe.",
   "no_perms_managed": "Du ben\u00f6tigst die `Nachrichten verwalten` Permissions oder Rollen-Rechte, um Erinnerungen zu diesem Channel hinzuzuf\u00fcgen. Bitte spreche mit deinem Administrator und frage ihn, den `{prefix}restrict` Befehl zu nutzen und deine Rolle hinzuzuf\u00fcgen.",
   "no_perms_restricted": "Du ben\u00f6tigst mindestens das Permissions-Level `Server verwalten` um diesen Befehl zu verwenden.",
@@ -16,9 +15,7 @@
   "timezone/set_p": "Deine pers\u00f6nliche Zeitzone wurde zu {timezone} ge\u00e4ndert. Die derzeitige Zeit sollte {time} sein",
   "restrict/disabled": "Deaktivierte Befehlsberechtigungen f\u00fcr bestimmte Rollen",
   "restrict/enabled": "Aktivierte Befehlsberechtigungen f\u00fcr bestimmte Rollen",
-  "restrict/allowed": "Regeln: {}",
   "restrict/failure": "Zuweisung von Berechtigungen f\u00fcr den Befehl `{command}` fehlgeschlagen. Dieser Befehl existiert entweder nicht oder funktioniert nur mit voreingestellten Einschr\u00e4nkungen",
-  "restrict/help": "Benutze:\n**Rolle zur\u00fccksetzen**\n`$restrict @RoleName`\n\n**Erlaube Befehl f\u00fcr eine Rolle (z.B. `natural` oder als Alias `n`)**\n`$restrict @RoleName natural n`\n\n**Zeige Befehlsberechtigungen an**\n`$restrict`",
   "remind/no_argument": "Benutze:\n    ```{prefix}remind [Kanal / User] <Zeit-bis-zur-Errinnerung> <Nachricht>```\nBeispiel:\n    ```{prefix}remind #general 10s Hallo Welt!```\n    ```{prefix}remind 10:30 Es ist 10:30 Uhr```",
   "remind/invalid_tag": "Finde keinen Kanal mit dem angegebenen Tag.",
   "remind/invalid_time": "Bitte stelle sicher, dass die Zeit durch [num][s/m/h/d][num][s/m/h/d] etc. oder `day/month/year-hour:minute:second` angeben wird.",
@@ -36,7 +33,6 @@
   "natural/send": "sende",
   "natural/to": "an",
   "natural/every": "jede",
-  "natural/bulk_set": "{} Erinnerungen wurden erfolgreich gesetzt",
   "del/listing": "Alle Erinnerungen... (Es k\u00f6nnte etwas dauern, warte bitte auf die \"Verwende (1,2,3...) ..\" Nachricht).",
   "del/listed": "Verwende (1,2,3...) um eine Erinnerung zu l\u00f6schen. Eine andere Angabe f\u00fchrt zum Abbruch.",
   "del/count": "Entferne {}. Erinnerung!",
@@ -49,7 +45,6 @@
   "todo/removed": "Erfolgreich '{}' von der TODO-Liste entfernt!",
   "todo/error_value": "Zu entfernendes Element muss eine Nummer sein. Zeige alle TODOs mit `{prefix}{command}` an",
   "todo/error_index": "Kann kein Element mit dieser Nummer finden. Bist du in der richtigen Liste?",
-  "todo/help": "Nutze `{prefix}{command} add <Nachricht>`, `{prefix}{command} remove <Nummer>`, `{prefix}{command} clear` oder `{prefix}{command}` um TODOs hinzuzuf\u00fcgen, entfernen oder die Liste zu leeren.",
   "todo/cleared": "TODO-Liste gel\u00f6scht!",
   "blacklist/removed_from": "Kanal von der Blocklist entfernt.",
   "blacklist/added_from": "Kanal zu der Blocklist hinzugef\u00fcgt.",
@@ -58,7 +53,6 @@
   "lang/invalid": "Sprachen:\n{}",
   "lang/set_p": "Pers\u00f6nliche Sprache zu Deutsch gesetzt.",
   "clock/time": "Derzeit ist es {} Uhr.",
-  "offset/help": "Benutze: `{prefix}offset <Zeit>`",
   "offset/invalid_time": "Bitte stelle sicher, dass die Zeit im folgendem Format angegeben ist: [num][s/m/h/d][num][s/m/h/d]",
   "offset/success": "Alle Erinnerungen haben nun einen Offset von {} Sekunden",
   "nudge/invalid_time": "Bitte stelle sicher, dass die Zeit im folgendem Format angegeben ist [num][s/m/h/d][num][s/m/h/d]. Au\u00dferdem muss sie kleiner als 30'000 Sekunden sein.",
@@ -69,5 +63,4 @@
   "timer/success": "Neuer Timer erstellt",
   "timer/not_found": "Es wurde kein Timer mit diesem Namen gefunden",
   "timer/deleted": "Timer gel\u00f6scht",
-  "timer/help": "**Timer Hilfe**\n`timer list` - Zeige alle Timer vom Server / User\n\n`timer start [Name]` - Starte einen neuen Timer (Z\u00e4hlt unendlich hoch)\n\n`timer delete <Name>` - L\u00f6scht einen Timer"
 }
