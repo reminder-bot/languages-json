@@ -1,6 +1,6 @@
 {
     "flag": "🇬🇧",
-    "blacklisted": "Ur willy is small",
+    "blacklisted": ":x: This channel is blacklisted :x:",
     "no_perms_general": "Please ensure the bot has the correct permissions:\n\n✅     **Send Message**\n{embed_links}     **Embed Links**\n{manage_webhooks}     **Manage Webhooks**\n\n**Optional Permissions (may improve functionality but not necessary to operate):**\n{add_reactions}     **Add Reactions**\n{manage_messages}     **Manage Messages**",
     "no_perms_managed": "You must have `Manage Messages` or have a role capable of sending reminders to that channel. Please talk to your server admin, and ask them to use the `{prefix}restrict` command to specify allowed roles.",
     "no_perms_restricted": "You must have permission level `Manage Server` or greater to use this command.",
